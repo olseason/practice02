@@ -12,14 +12,15 @@ public class Ex10 {
 		System.out.print("사번:  ");
 		int num1 = sc.nextInt();
 		
-		
-		
-		
-		
-		
-		
-		
-		
+		if (num1 % 3 ==0) {
+			System.out.println("A팀입니다. ");
+		} else if (num1 % 3 ==1) {
+			System.out.println("B팀입니다. ");
+		} else if (num1 % 3 ==2) {
+			System.out.println("C팀입니다. ");
+		} else {
+			System.out.println("잘못 입력 하셨습니다. ");
+		}
 		
 		sc.close();
 
